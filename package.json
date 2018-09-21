@@ -1,0 +1,16 @@
+{
+	"name": "screenshot-generator",
+	"version": "1.0.0",
+	"description": "Generation of screenshots of websites through node and AWS Lambda",
+	"main": "index.js",
+	"scripts": {
+		"test": "npm run test",
+		"go": "node index.js"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"aws-sdk": "^2.318.0",
+		"webpage-capture": "^0.1.3"
+	}
+}
